@@ -6,11 +6,18 @@
 }
 
 .topBelt {
-    background-color: #60267F;
     width: 100%;
     height: 20px;
     text-align: center;
     color: white;;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    box-shadow: -1px 6px 12px -6px rgba(0,0,0,0.2);
+    -webkit-box-shadow: -1px 6px 12px -6px rgba(0,0,0,0.2);
+    -moz-box-shadow: -1px 6px 12px -6px rgba(0,0,0,0.2);
 }
 
 .learnMore {
@@ -20,4 +27,47 @@
 .navigationContainer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 30px;
+}
+
+.navChoice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navChoice ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navChoice ul li {
+    list-style: none;
+}
+
+.navChoice ul li a {
+    text-decoration: none;
+    color: #2B0236;
+}
+
+.navButton {
+border: solid 1px #9A54BC;
+font-family: 'Roboto', sans-serif;
+color: #9A54BC;
+background-color: transparent;
+padding: 10px 20px;
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+transform: all 0.1s ease-in-out;
+}
+
+.navButton:hover {
+background-color: #9A54BC;
+color: white;
 }
