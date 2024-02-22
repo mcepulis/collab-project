@@ -264,3 +264,94 @@ iframe {
     width: 1000px;
     height: 500px;
 }
+.projectsDoneContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    gap: 100px;
+
+}
+
+.projectDoneCardsContainer {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projectDoneCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projectDoneImg {
+    width: 350px;
+}
+
+.projectDonePara1 {
+    color: #60267F;
+}
+
+.collabAppsCardsContainer {
+    background-color: #1f0d270b; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 150px;
+}
+
+.collabAppsCardsPara {
+    color: #A79D9D;
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.collabAppsDiscount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.collabAppsDiscountMonthly {
+    color: #A79D9D;
+    font-size: 11px;
+}
+
+.collabAppsDiscountYearly {
+    font-size: 11px;
+}
+
+.collabAppsDiscountTenPercent {
+    font-size: 8px;
+    background-color: yellow;
+    margin-left: 5px;
+}
+
+.collabCardsContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #A79D9D;
+}
+
+.collabCardsList {
+    list-style: none;
+}
+
+.collabCardsList::before {
+    content: "\F231";
+    font-family: bootstrap;
+}
+
